@@ -95,7 +95,7 @@ Designing the dashboard structure first forced me to think about what the audien
 
 Because the dataset for this project is synthetic, meaning I built it from scratch rather than getting it from a real company, I had to design it so that the patterns I wanted to analyse were actually present in the data. That does not mean the data is fabricated in a misleading way. It means the data was generated using real manufacturing logic, with real business rules governing how tables relate to each other, so that when you analyse it the patterns you find are the same kinds of patterns you would find in a real factory dataset.
 
-The full logic behind how the dataset was designed is documented in `dataset_generation_logic.pdf` in this repository. The statistical profile of every column across all six tables is in `data_overview.pdf`.
+The full logic behind how the dataset was designed is documented in [dataset_generation_logic.pdf](dataset_generation_logic.pdf) in this repository. The statistical profile of every column across all six tables is in [data_overview.pdf](data_overview.pdf).
 
 The raw CSV files are not included in the repository because the full dataset is over 100MB. The documentation is detailed enough to reproduce the dataset if you want to.
 
